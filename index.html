@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yoga Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    .container {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .image-box img {
+      width: 200px;
+      height: auto;
+      margin-right: 20px;
+      border-radius: 8px;
+    }
+
+    .description {
+      flex: 1;
+      margin-top: 20px;
+    }
+
+    .form-box {
+      display: flex;
+      margin-top: 30px;
+    }
+
+    .form-left {
+      flex: 1;
+      padding-right: 30px;
+    }
+
+    .form-left label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-left input[type="text"],
+    .form-left input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+
+    .form-right {
+      flex: 1;
+    }
+
+    .form-right .gender,
+    .form-right .hobbies {
+      margin-bottom: 20px;
+    }
+
+    .form-right label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .form-right input {
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <Header: Image and Description>
+  <div class="container">
+    <div class="image-box">
+      <img src="C:\Users\dell\Downloads\form101/basta yoga.png">
+    </div>
+    <div class="description">
+      <p>Welcome! Please fill out this form to register for our yoga sessions. Whether you're a beginner or an experienced yoga, we’d love to learn more about you and your interests. Let’s take the first step toward a healthier, more balanced lifestyle together.</p>
+
+    </div>
+  </div>
+
+  <forms>
+  <div class="form-box">
+    <div class="form-left">
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" />
+
+      <label for="email">Email-Ad:</label>
+      <input type="email" id="email" />
+
+      <label for="contact">Contact Number:</label>
+      <input type="text" id="contact" />
+    </div>
+
+    <div class="form-right">
+      <div class="gender">
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" /> Male</label>
+        <label><input type="radio" name="gender" /> Female</label>
+      </div>
+
+      <div class="hobbies">
+        <label>Hobbies:</label>
+        <label><input type="checkbox" /> Swimming</label>
+        <label><input type="checkbox" /> Biking</label>
+        <label><input type="checkbox" /> Reading</label>
+        <label><input type="checkbox" /> Watching TV</label>
+        <label><input type="checkbox" /> Playing</label>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
